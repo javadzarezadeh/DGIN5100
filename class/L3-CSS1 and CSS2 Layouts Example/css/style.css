@@ -1,40 +1,53 @@
 /* --------------------------------------------------------------
 GENERAL ELEMENTS
 -------------------------------------------------------------- */
-/*body {	
+body {	
 	margin-top: 25px;
-	font-family: Arial, sans-serif; 
+	font-family: Inter, Arial, sans-serif; 
 	color: #456; 
-	font-size: 11pt; 
+	font-size: 16pt; 
 	line-height: 1.2; 
 	font-weight: 300;
 	position: relative;
-}*/
+	width: 1020px;
+	border: solid red thin;
+	margin-right: auto;
+	margin-left: auto;
+}
 
 /* HEADINGS */
 
-/*h1 {
+h1 {
 	font-size: 1.5em;
-}*/
+}
 
-/*h1, h2, h3, h4, h5, h6 { 
-	font-family:  Helvetica, Arial, sans-serif;
+h1, h2, h3, h4, h5, h6 { 
+	font-family:  Inter, Arial, sans-serif;
 	color: #20303d; 
 	line-height: 1.2; 
+	border: solid 8px #009900;
 	margin: 0 0 10px; 
 	text-transform: uppercase;
-}*/
+}
 
-/*h2 {
+h2 {
 	text-align: left;
 	margin-left: 25px;
-}*/
+}
 
-/*h3 {
+h3 {
 	text-align: center;
-}*/
+}
 
+#wrapper {
+	border: solid black thin;
+	margin: 5px;
+}
 
+.col1 {
+	margin: 10px;
+	border: dashed blue 3px;
+}
 
 /* --------------------------------------------------------------
 LAYOUT

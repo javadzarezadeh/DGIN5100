@@ -1,0 +1,62 @@
+/* --------------------------------------------------------------
+GENERAL ELEMENTS
+-------------------------------------------------------------- */
+body {
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 1em;
+	color: #34495e;
+	position: relative;
+	margin: 0;	
+	display: block;
+	background-color: #a2d1c9;
+}
+
+#wrapper {
+	width: 90%;
+	max-width: 80em;
+	margin: 0 auto;
+}
+
+p {
+	line-height: 1.5em;
+	margin: 1.5em 0 0;
+}
+
+
+h2 {
+	font-size: 2em;
+	color: #2c3e50;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 0;
+	padding: .5em;
+	border-bottom: .15em solid #050524;
+}
+
+h3 {
+	font-size: 1.5em;
+	color: #050524;
+	text-align: center;
+	text-transform: capitalize;
+	margin:	1.5em 0;
+}
+
+.col1,
+.col2,
+.col3 {
+	float: left;
+	width: 30%;
+	margin: 0 1.5%;
+	padding-bottom: 1.5em;
+	border-bottom: .15em solid #4f4545;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+a {
+	color: #2b83bd;
+}
